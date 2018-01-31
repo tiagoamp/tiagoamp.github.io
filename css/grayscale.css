@@ -276,3 +276,8 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.tech-logo {
+  width: 80px;
+  height: 80px;
+}
