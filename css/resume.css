@@ -150,3 +150,12 @@ a:hover, a:focus, a:active {
   width: 80px;
   height: 80px;
 }
+
+.edu-place {
+  font-size: 1.3rem;
+}
+
+.edu-text {
+  font-size: 0.9rem;
+}
+
