@@ -19,3 +19,17 @@ dd, dt {
 footer {
     margin: 50px 0;
 }
+
+.project-name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-description, .project-tech {
+    font-size: 12px;
+}
+
+.proj-details-link {
+    font-style: italic;
+    font-size: 12px;
+}
