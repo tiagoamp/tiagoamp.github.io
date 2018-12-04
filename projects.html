@@ -66,16 +66,19 @@
 
         <!-- Projects Row -->
         <div class="row">
+
             <div class="col-md-3 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="" alt="imagem">
+                    <img class="img-responsive" src="" alt="imagem" height="750px" width="450px"/>
                 </a>
                 <div>
                     <p>Project One</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!
-                        </p>
-                </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!
+                    </p>
+                </div>                
             </div>
+
             <div class="col-md-3 portfolio-item">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/750x450" alt="">
@@ -111,13 +114,78 @@
                     <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 </a>
             </div>
+
+            <!-- SAE/PREVAGENDA -->
             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <a href="#" data-toggle="modal" data-target="#modalProj1">
+                    <img class="img-responsive" src="img/screens/screen_sae_01.png" alt="proj logo image" />                    
                 </a>
+                <div>
+                    <p>Project SAE/PrevAgenda</p>
+                    <p>
+                        Project goal was to provide online scheduling for public government services requests. <br/>
+                        The system should create a virtual queue and schedule the citizens' attendance in government agencies nearest to their homes. <br/>
+                        There was a previous unstable version of the application developed in PL/SQL, and the team should rewrite/refactor the code 
+                        segregating presentation and business logic in Java, providing an architecture that supports the large number of online requests from all over the country.
+                    </p>
+                </div>
+
+                <div> <!-- modal -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalProj1">
+                        View more details...
+                    </button>
+                    <!-- Modal window -->
+                    <div class="modal fade" id="modalProj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel"><strong> Project SAE/PREVAGENDA </strong></h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <dl class="dl-horizontal">
+                                            <dt>DESCRIPTION:</dt>
+                                            <dd>Project goal was to provide online scheduling for public government services requests. <br/>
+                                            The system should create a virtual queue and schedule the citizens' attendance in government agencies nearest to their homes. <br/>
+                                            There was a previous unstable version of the application developed in PL/SQL, and the team should rewrite/refactor the code 
+                                            segregating presentation and business logic in Java, providing an architecture that supports the large number of online requests from all over the country.</dd>
+                                            <dt>DURATION:</dt>
+                                            <dd>03 months (Start date: 24/Sep/2007 - End date: 10/Dez/2007).</dd>
+                                            <dt>ROLE:</dt>
+                                            <dd>Developer / Data Administrator.</dd>
+                                            <dt>RESPONSIBILITIES:</dt>
+                                            <dd>Implementation in Java and PL/SQL; Data modeling; Documentation of features and design.</dd>
+                                            <dt>TECH & TOOLS:</dt>
+                                            <dd>Java, EJB, JDBC, JSP, Struts, Oracle Database, PL/SQL.</dd>
+                                            <dt>ACHIEVEMENTS:</dt>
+                                            <dd>Increase efficiency in public services, solving real life blocking/awaiting work problem. Built robust application with skippable downtime.</dd>
+                                            <dt>URL:</dt>
+                                            <dd>Currently the application is embedded in a bigger government portal.</dd>
+                                            <dt>Screenshots:</dt>
+                                            <dd>
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-sm-6">
+                                                        <img src="img/screens/screen_sae_01.png" alt="screenshot1" class="img-responsive"/>                                                        
+                                                    </div>
+                                                </div>                                                                                                
+                                            </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- modal window -->
+                </div> <!-- /modal -->
             </div>
-        </div>
-        <!-- /.row -->
+
+        </div> <!-- /.row -->
         
         <hr>
 
