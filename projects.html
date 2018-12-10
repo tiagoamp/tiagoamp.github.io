@@ -12,10 +12,7 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/projects.css" rel="stylesheet">
-
-    <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
 </head>
 
 <body>
@@ -54,18 +51,119 @@
     <!-- Page Content -->
     <div class="container">
 
+        <!-- tabs -->
+        <ul class="nav nav-tabs">
+            <li id="li-corp" role="presentation" class="active"><a href="#" id="link-corp-proj">Corporate Projects</a></li>
+            <li id="li-person" role="presentation"><a href="#" id="link-person-proj">Others Projects</a></li>
+        </ul>
+
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Corporate Projects
-                    <small>Projects developer at Dataprev company</small>
+                <h1 class="page-header">Projects
+                    <small>personal or freelance</small>
                 </h1>
             </div>
         </div>
         <!-- /.row -->
 
+
+        <!-- Projects Row 1 - Personal -->
+        <div class="row  personal-proj">
+
+            <!-- SJC-Automatizador -->
+            <div class="col-md-3 portfolio-item">
+                <a href="#" data-toggle="modal" data-target="#modalProj1">
+                    <img class="img-responsive img-thumbnail center-block proj-thumb" src="img/screens/scrreenshot.png" alt="proj logo image" />
+                </a>
+                <div>
+                    <p class="project-name">Project SJC-Automatizador</p>
+                    <p class="project-description">                        
+                        Project goal was to provide data migration of civil records from legacy databases, develop a new batch job to 
+                        verify the accuracy of data sent by notary's office and to implement some new features in the web application.
+                    </p>
+                    <p class="project-tech">
+                        <strong>TECH & TOOLS:</strong> Java, EJB, JSF, JPA, Spring-Batch, Maven, Oracle Database.
+                    </p>
+                </div>
+
+                <div> 
+                    <!-- Button trigger modal -->
+                    <a href="" class="proj-details-link" data-toggle="modal" data-target="#modalProj1">
+                            View more details...
+                    </a>
+                    <!-- Modal window -->
+                    <div class="modal fade" id="modalProj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel"><strong> Project SIRC version 9 </strong></h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <dl class="dl-horizontal">
+                                                <dt>DESCRIPTION:</dt>
+                                                <dd>Project goal was to provide data migration of civil records from legacy databases, develop a new batch job to 
+                                                    verify the accuracy of data sent by notary's office and to implement some new features in the web application. <br/>
+                                                    <em>Original project (version 1) description: Project to develop a system to get population data from public notaries all over the country.
+                                                        These data (birth, marriage and death registrations) are used for census, reports, statistics and to support government planning.</em>
+                                                </dd>
+                                                <dt>DURATION:</dt>
+                                                <dd>06 months (Start date: 02/Jul/2018 - End date: 28/Dec/2018).</dd>
+                                                <dt>ROLE:</dt>
+                                                <dd>Developer</dd>
+                                                <dt>RESPONSIBILITIES:</dt>
+                                                <dd>Java implementantion; Requirements gathering.</dd>
+                                                <dt>TECH & TOOLS:</dt>
+                                                <dd>Java, EJB, JSF, JPA, Spring-Batch, Maven, Oracle Database.</dd>
+                                                <dt>ACHIEVEMENTS:</dt>                      
+                                                <dd>Became the concurrent/parallel and large data volume processing reference developer of the team. <br/>
+                                                    Implemented a batch job to load, transform and migrate over 40 millions records from a legacy database, using concurrent processing (threads) to meet the specific max-time requirement. <br/>
+                                                    Implemented a batch job to check data correctness using concurrent processing (threads) that is 10x faster than the previous version. 
+                                                </dd>
+                                                <dt>URLs:</dt>
+                                                <dd>
+                                                    <ul>
+                                                        <li>Portal: http://www.sirc.gov.br/</li>
+                                                        <li>Application(login need): https://sirc.dataprev.gov.br/</li>
+                                                        <li>Desktop application (download): http://www.sirc.gov.br/static/downloads/sirc_cartorio.zip</li>
+                                                        <li>Webservice wsdl: http://sirc.dataprev.gov.br/SircWs/Movimento?wsdl</li>
+                                                    </ul>   
+                                                </dd>
+                                                <dt>Screenshots:</dt>
+                                                <dd>
+                                                    <div class="row">
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <img src="img/screens/logo_sirc.png" alt="screenshot1" class="img-responsive"/>                                                        
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <img src="img/screens/screen_sirc_01.png" alt="screenshot1" class="img-responsive"/>                                                        
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-4">
+                                                            <img src="img/screens/screen_sirc_02.png" alt="screenshot1" class="img-responsive"/>                                                        
+                                                        </div>
+                                                    </div>                                                                                               
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- modal window -->
+                </div> <!-- /modal -->
+            </div>
+
+        </div> <!-- /.row -->
+
+
         <!-- Projects Row 5 -->
-        <div class="row">
+        <div class="row  corp-proj">
 
             <!-- SIRC V9 -->
             <div class="col-md-3 portfolio-item">
@@ -393,7 +491,7 @@
         </div> <!-- /.row -->
 
         <!-- Projects Row 4 -->
-        <div class="row">
+        <div class="row  corp-proj">
 
             <!-- FAP V5 -->
             <div class="col-md-3 portfolio-item">
@@ -700,7 +798,7 @@
         </div> <!-- /.row -->
 
         <!-- Projects Row 3 -->
-        <div class="row">
+        <div class="row  corp-proj">
 
             <!-- SISGDAMP V1 -->
             <div class="col-md-3 portfolio-item">
@@ -1032,7 +1130,7 @@
         </div> <!-- /.row -->
 
         <!-- Projects Row 2 -->
-        <div class="row">
+        <div class="row  corp-proj">
                         
             <!-- SIRC V2 -->
             <div class="col-md-3 portfolio-item">
@@ -1350,7 +1448,7 @@
         </div> <!-- /.row -->
 
         <!-- Projects Row 1 -->
-        <div class="row">
+        <div class="row  corp-proj">
             
             <!-- SABI-WEB -->
             <div class="col-md-3 portfolio-item">
@@ -1506,6 +1604,7 @@
             </div>
 
         </div> <!-- /.row -->
+
         
         <hr>
 
@@ -1522,6 +1621,11 @@
     </div>
     <!-- /.container -->
     
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/projects.js"></script>
+
 </body>
 
 </html>
