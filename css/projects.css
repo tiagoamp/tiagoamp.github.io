@@ -33,3 +33,8 @@ footer {
     font-style: italic;
     font-size: 12px;
 }
+
+.proj-thumb {
+    height: 100px;
+    width: 160px;
+}
