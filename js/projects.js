@@ -9,6 +9,8 @@ $(document).ready(function(){
         $(".personal-proj").fadeOut();
         $("#li-corp").addClass("active");
         $("#li-person").removeClass("active");
+        $(".page-cap").text("Corporate Projects");
+        $(".page-small").text("developed at Dataprev company");
     });
 
     // personal
@@ -18,6 +20,8 @@ $(document).ready(function(){
         $(".personal-proj").fadeIn();
         $("#li-corp").removeClass("active");
         $("#li-person").addClass("active");
+        $(".page-cap").text("Other Projects");
+        $(".page-small").text("personal and freelance");
     });
 
 });
