@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $(".personal-proj").hide();
+    $(".corp-proj").hide();
 
     // corporate
     $("#link-corp-proj").click(function(event){
