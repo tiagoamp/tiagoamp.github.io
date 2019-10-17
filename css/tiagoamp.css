@@ -151,7 +151,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 50px; // 100px
+    font-size: 50px; 
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
@@ -186,7 +186,7 @@ a:focus, a:hover {
 
 .resume-section {
   color: white;
-  //background: url("../img/background2.jpg") no-repeat center center scroll;
+  /*background: url("../img/background2.jpg") no-repeat center center scroll;*/
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
