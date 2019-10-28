@@ -57,13 +57,37 @@ hr {
     box-shadow: 5px 10px 18px #888888;
 }
 
+.proj-box p, .proj-link {
+    padding: 5px 5px;
+}
+
 .proj-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    margin: 5px;    
 }
 
 .proj-thumb {
-    width: 220px;
-    height: 150px;
+    width: 160px;
+    height: 100px;
+}
+
+.proj-name {
+    font-weight: bold;
+}
+
+.proj-techstack-label {
+    font-weight: bold;
+}
+
+.proj-link, proj-link:visited {
+    text-decoration: none;
+    color: #337ab7;
+    font-style: italic;
+}
+
+.proj-link:hover {
+    font-weight: bold;
 }
