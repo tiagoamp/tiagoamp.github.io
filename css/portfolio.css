@@ -104,6 +104,20 @@ hr {
     margin: 5px 0px;
 }
 
+.modal .panel-info img {
+    vertical-align: top;
+    height: 200px;
+    width: 470px;    
+}
+
+@media screen and (max-width: 768px) {
+    .modal .panel-info img {
+        vertical-align: top;
+        height: 100px;
+        width: 150px;    
+    }
+  }
+
 .modal .label {
     font-weight: bold;
 }
