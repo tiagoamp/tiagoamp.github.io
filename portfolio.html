@@ -26,82 +26,77 @@
     <main>
         
         <section class="projects">
-            <h2>Projects</h2>
+            <h2>Projects and products developed</h2>
             <hr/>
             <div class="proj-dashboard">
 
                 <div class="proj-box">
                     <div class="proj-header">
-                        <a href="#modal">
-                            <img class="proj-thumb" src="img/screens/screen_acervorama_01.png" alt="proj logo image" />
-                        </a>
+                        <img class="proj-thumb" src="img/screens/screen_acervorama_01.png" alt="proj logo image" />
                         <p class="proj-name">Acervorama</p>
                     </div>
-                    <div>                        
+                    <div class="proj-body">
                         <p>                        
                             Dashboard and control panel for personal media collection stored in hard drive.
                         </p>
                         <p>
-                            <span class="proj-techstack-label">Tech & Tools</span>: Java, Javascript, React, Bootstrap, Spring-Boot, Docker, MySQL.
+                            <span class="proj-techstack-label">Tech & Tools</span>: 
+                            Java, Javascript, React, Bootstrap, Spring-Boot, Docker, MySQL.
+                        </p>
+                        <p>                        
+                            Intranet application. 
+                            Source code available at Github: https://github.com/tiagoamp/acervorama
                         </p>
                     </div>    
-                    <div> 
-                        <a href="#modal-acervorama" class="proj-link modal-button">View more details...</a>
-                    </div>                   
+                    <!-- <div><a href="#modal-acervorama" class="proj-link modal-button">View more details...</a></div> -->
                 </div>
                  
                 <div class="proj-box">
                     <div class="proj-header">
-                        <a href="#modal">
-                            <img class="proj-thumb" src="img/screens/screen_flowdashboard_01.png" alt="proj logo image" />
-                        </a>
+                        <img class="proj-thumb" src="img/screens/screen_flowdashboard_01.png" alt="proj logo image" />
                         <p class="proj-name">Flow-Dashboard</p>
                     </div>
-                    <div>                        
+                    <div class="proj-body">
                         <p>                        
                             Application to visualize tasks flow through kanban. <br/>
                             Displays a web page with a Cumulative Flow Diagram and a Kanban status: "INBOX, TO DO, DOING, DONE, RELEASED".
                         </p>
                         <p>
-                            <span class="proj-techstack-label">Tech & Tools</span>: Javascript, NodeJS, React, Bootstrap, chart.js, MySQL.
+                            <span class="proj-techstack-label">Tech & Tools</span>: 
+                            Javascript, NodeJS, React, Bootstrap, chart.js, MySQL.
                         </p>
-                    </div>    
-                    <div> 
-                        <!-- Button trigger modal -->
-                        <a href="#modal" class="proj-link">
-                            View more details...
-                        </a>
-                    </div>
+                        <p>                        
+                            Intranet application. 
+                            Source code available at Github: https://github.com/tiagoamp/flow-dashboard
+                        </p>
+                    </div>                    
                 </div>
 
                 <div class="proj-box">
                     <div class="proj-header">
-                        <a href="#modal">
-                            <img class="proj-thumb" src="img/screens/screen_sjc_04.png" alt="proj logo image" />
-                        </a>
+                        <img class="proj-thumb" src="img/screens/screen_sjc_04.png" alt="proj logo image" />
                         <p class="proj-name">SJC-Automatizador</p>
                     </div>
-                    <div>                        
+                    <div class="proj-body">                        
                         <p>                        
                             Web application built to SJC Company to automate the work of loading and validating Excel spreadsheets, 
                             merging them and generating one output spreadsheet with joined data. 
                         </p>
                         <p>
-                            <span class="proj-techstack-label">Tech & Tools</span>: Java, Spring-Boot, JSoup, Apache-Poi, React.
+                            <span class="proj-techstack-label">Tech & Tools</span>: 
+                            Java, Spring-Boot, JSoup, Apache-Poi, REST, React.
                         </p>
-                    </div>    
-                    <div> 
-                        <!-- Button trigger modal -->
-                        <a href="#modal" class="proj-link">
-                            View more details...
-                        </a>
-                    </div>
+                        <p>                        
+                            Intranet application. 
+                            Source code available at Github: https://github.com/tiagoamp/sjc-automatizador
+                        </p>
+                    </div>                    
                 </div>
 
             </div>
 
             <!-- modals -->
-            <div id="modal-acervorama" class="modal">                            
+            <!-- <div id="modal-acervorama" class="modal">                            
                 <div class="modal-content">
                     <div class="modal-header">
                         <span class="close">×</span>
@@ -121,37 +116,85 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--x modal x-->
 
             <hr/>
         </section>
 
         <section class="projects">
-            <h2>Projects at Dataprev company</h2>
+            <h2>Projects and products developed at Dataprev company</h2>
             <hr/>
             <div class="proj-dashboard">
+                
                 <div class="proj-box">
-                    box 1
+                    <div class="proj-header">
+                        <img class="proj-thumb" src="img/screens/screen_sirc_01.png" alt="proj logo image" />                        
+                        <p class="proj-name">SIRC</p>
+                    </div>
+                    <div class="proj-body">
+                        <p>                        
+                            Platform to get population data from public notaries all over the country.<br/>
+                            These personal data would be used for census, reports, statistics and to support government decisions.<br/>
+                            There are about 8 thousand notaries offices which send daily data to SIRC, like birth, marriage and death registrations. 
+                            These data may be sent by webservices or web-forms provided by SIRC application. <br/>
+                            The application is also responsible for process and validate this huge amount of records, building reports and notifications as the output.
+                        </p>
+                        <p>
+                            <span class="proj-techstack-label">Tech & Tools</span>: 
+                            Java, EJB, JSF, JPA, Spring-Batch, Maven, Oracle Database.
+                        </p>
+                        <p>
+                            Internet and Intranet modules. URLs: <br/>
+                            Portal: http://www.sirc.gov.br/ <br/> 
+                            Application(sign-in needed): https://sirc.dataprev.gov.br/ <br/>
+                            Desktop application (download): http://www.sirc.gov.br/static/downloads/sirc_cartorio.zip <br/>
+                            Webservice wsdl: http://sirc.dataprev.gov.br/SircWs/Movimento?wsdl
+                        </p>
+                    </div>                    
                 </div>
+
                 <div class="proj-box">
-                    box 2
+                    <div class="proj-header">
+                        <img class="proj-thumb" src="img/screens/screen_informerpps_01.png" alt="proj logo image" />                        
+                        <p class="proj-name">INFORME-RPPS</p>
+                    </div>
+                    <div class="proj-body">
+                        <p>                        
+                            ETL application to load social security data from multiple datasources to identify frauds. <br/>
+                            Application also displays reports about suspect fraudulent data in dashboards, tables and charts.
+                        </p>
+                        <p>
+                            <span class="proj-techstack-label">Tech & Tools</span>: 
+                            Webfocus, SAP-BODS, Oracle Database, HTML, Javascript, Bootstrap, Gentelella.
+                        </p>                        
+                    </div>                    
                 </div>
+
                 <div class="proj-box">
-                    box 3
+                    <div class="proj-header">
+                        <img class="proj-thumb" src="img/screens/screen_captcha_01.png" alt="proj logo image" />                        
+                        <p class="proj-name">CAPTCHA CORPORATIVO</p>
+                    </div>
+                    <div class="proj-body">
+                        <p>                        
+                            Embedded solution to web applications to improve security of a corporative Captcha ('Completely Automated Public Turing test to tell Computers and Humans Apart') 
+                            using 'JCaptcha' component. <br/> 
+                            It is used by client applications as a remote component.
+                        </p>
+                        <p>
+                            <span class="proj-techstack-label">Tech & Tools</span>: 
+                            Java, JSP, Servlets, JCaptcha, Tomcat.
+                        </p>                        
+                    </div>                    
                 </div>
-                <div class="proj-box">
-                    box 4
-                </div>
+
             </div>
             <hr/>
         </section>
 
     </main>
-    
-    <!-- JAVASCRIPT -->
-    <script src="js/portfolio.js"></script>
-    
+        
 </body>
 
 </html>

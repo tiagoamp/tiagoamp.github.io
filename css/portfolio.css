@@ -7,6 +7,9 @@
   }
 /* --x-- reset --x-- */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header {
     background-color: #202020;    
@@ -39,16 +42,14 @@ hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
-    /* border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+    margin: 10px;
 }
 
 .proj-dashboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 5px;
 }
 
 .proj-box {
@@ -66,8 +67,12 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     margin: 5px;    
+}
+
+.proj-body {
+    font-size: 0.8rem;
 }
 
 .proj-thumb {
@@ -93,85 +98,3 @@ hr {
 .proj-link:hover {
     font-weight: bold;
 }
-
-.modal .panel-info {
-    font-size: 0.9rem;
-    color: #303030;
-    padding: 5px;     
-}
-
-.modal .panel-info p {
-    margin: 5px 0px;
-}
-
-.modal .panel-info img {
-    vertical-align: top;
-    height: 200px;
-    width: 470px;    
-}
-
-@media screen and (max-width: 768px) {
-    .modal .panel-info img {
-        vertical-align: top;
-        height: 100px;
-        width: 150px;    
-    }
-  }
-
-.modal .label {
-    font-weight: bold;
-}
-
-/** modal **/
-.modal {  /* The Modal (background) */
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */    
-  }
-  
-  .modal-content {  /* Modal Content/Box */
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-  }
-  
-  /* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-.close {  /* The Close Button */
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-/**x modal x**/
