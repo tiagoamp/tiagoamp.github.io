@@ -94,6 +94,20 @@ hr {
     font-weight: bold;
 }
 
+.modal .panel-info {
+    font-size: 0.9rem;
+    color: #303030;
+    padding: 5px;     
+}
+
+.modal .panel-info p {
+    margin: 5px 0px;
+}
+
+.modal .label {
+    font-weight: bold;
+}
+
 /** modal **/
 .modal {  /* The Modal (background) */
     display: none; /* Hidden by default */
@@ -105,7 +119,7 @@ hr {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */    
   }
   
   .modal-content {  /* Modal Content/Box */
@@ -114,6 +128,7 @@ hr {
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -132,17 +147,17 @@ hr {
     to {top:0; opacity:1}
 }
 
-  .close {  /* The Close Button */
+.close {  /* The Close Button */
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 /**x modal x**/
