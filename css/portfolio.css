@@ -15,6 +15,11 @@ header {
     background-color: #202020;    
 }
 
+section {
+    margin-top: 35px;
+    margin-bottom: 25x;
+}
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -97,4 +102,8 @@ hr {
 
 .proj-link:hover {
     font-weight: bold;
+}
+
+.github-ref {
+    margin: 20px;
 }
